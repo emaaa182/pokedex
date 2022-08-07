@@ -1,0 +1,61 @@
+form{
+    width: 200px;
+    margin: 20px auto;
+}
+
+input{
+    width: 185px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;;
+}
+
+
+.poke-card{
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto', sans-serif;;
+    max-width: 300px;
+    border-radius: 4px;
+    color:#000;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+
+
+.img-container{
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div{
+    display:flex;
+    font-family: 'Roboto', sans-serif;;;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 22px
+}
+
+.poke-types div{
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    font-size: bold;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px dashed
+}
+
+
+.poke-img{
+    width: 180px;
+    border-radius: 50%;
+}
