@@ -1,24 +1,4 @@
 
-/*
-const apiButton = document.getElementById(`apiButton`)
-const apiData = document.getElementById(`apiData`)
-const base_experience = document.getElementById(`base_experience`)
-
-const callAPI = ()=>{
-    fetch("https://pokeapi.co/api/v2/pokemon/ditto")
-    .then(res=>res.json())
-    .then(data=>{
-        console.log(data)
-        base_experience.innerText = `Experiencia base: ${JSON.stringify(data.base_experience)}`
-    })
-    .catch(e=>console.error(new Error(e)))
-    
-}
-
-apiButton.addEventListener("click", callAPI)
-
-*/
-
 const pokeCard = document.querySelector(`[data-poke-card]`)
 const pokeName = document.querySelector(`[data-poke-name]`)
 const pokeImg = document.querySelector(`[data-poke-img]`)
@@ -72,7 +52,6 @@ const renderPokemonData = data =>{
 
 const setCardColor = types => {
     const colorOne = typeColors[types[0].type.name];
-    const colorTwo = types[1] ? typeColors[types[1].type.name] : typeColors.default;
     pokeImg.style.background =  ` ${colorOne} `;
     pokeImg.style.backgroundSize = ' 5px 5px';
 }
